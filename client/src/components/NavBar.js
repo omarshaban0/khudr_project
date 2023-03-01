@@ -1,9 +1,9 @@
 import React from "react";
-import { Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
-import HomePage from "./pages/HomePage";
-import DiseasesPage from "./pages/HomePage";
-import PreventPage from "./pages/HomePage";
+import HomePage from "../pages/HomePage";
+import DiseasesPage from "../pages/DiseasePage";
+import PreventPage from "../pages/PreventPage";
 
 const NavBar = () => {
     return (
@@ -14,9 +14,8 @@ const NavBar = () => {
                 <Link to='/diseases'>Diseases</Link>
 
                 <Link to='/prevent'>Prevent</Link>
-            </div>
 
-            <Switch>
+            <Routes>
                 <Route path="/" exact>
                     <HomePage />
                 </Route>
@@ -28,7 +27,8 @@ const NavBar = () => {
                 <Route path="/prevent" exact>
                     <PreventPage />
                 </Route>
-            </Switch>
+            </Routes>
+            </div>
         </Router>
     );
 };

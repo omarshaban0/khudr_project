@@ -1,4 +1,5 @@
 import React from "react";
+import NavBar from "../components/NavBar";
 
 const DiseasePage = () => {
     return(
@@ -6,7 +7,7 @@ const DiseasePage = () => {
             <h1>Disease</h1>
             <NavBar />
         </div>
-    )
-}
+    );
+};
 
 export default DiseasePage;

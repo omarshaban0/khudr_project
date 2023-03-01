@@ -1,11 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar"
 
 
 const App = () => {
     return(
-        <h1>allo</h1>
+        <div>
+            <h1>allo</h1>
+            <NavBar />
+        </div>
+
     );
 };
 
