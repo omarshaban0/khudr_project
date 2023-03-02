@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../components/NavBar";
+import Navigation from "../components/Navigation/Navigation";
 
 const PreventPage = () => {
     return(
         <div>
+            <Navigation/>
             <h1>Prevent</h1>
-            <NavBar />
         </div>
     );
 };
