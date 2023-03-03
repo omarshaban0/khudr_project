@@ -1,0 +1,60 @@
+.home-page{
+    background-color: #F2E8CF;
+    height: 3000px;
+    width: 100%;
+}
+
+.logo-section{
+    background-color: #386641;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo2{
+    height: 80vh;
+    width: auto;
+}
+
+.arrow-section{
+    background-color: #F2E8CF;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.arrow{
+    top: 9%;
+    height: 5vh;
+    position:relative;
+    width: auto;
+    animation: bob 1s infinite;
+}
+
+@keyframes bob {
+    10%{
+        top: 9%;
+    }
+    20%{
+        top: 11%;
+    }
+    30%{
+        top: 13%;
+    }
+    40%{
+        top: 15%;
+    }
+    50%{
+        top: 13%;
+    }
+    60%{
+        top: 11%;
+    }
+    70%{
+        top: 9%;
+    }
+
+}

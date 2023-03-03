@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.Navbar {
+    background-color: #386641;
+    color: #F2E8CF;
+    font-family: "BebasNeueRegular";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.img-logo {
+    display: flex;
+    align-items: left;
+    height: 40px;
+    width: auto;
+}
+.site-title {
+    font-size: 2rem;
+}
+
+.Navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.Navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.image-link{
+    color: #333333;
+}
+
+.divider{
+    height: 15px;
+    width: 85%;
+    left: 15%;
+}
