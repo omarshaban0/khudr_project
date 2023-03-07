@@ -1,6 +1,7 @@
 .home-page{
     background-color: #F2E8CF;
-    height: 3000px;
+    display: flex;
+    flex-direction:column;
     width: 100%;
 }
 
@@ -74,7 +75,20 @@
     align-items: center;
     flex-direction: column;
 }
+.home-table{
+    width: 1000px;
+}
 
 .home-table th{
     width: 33%;
+}
+
+.home-table td{
+    font-size: 25px;
+}
+
+.home-table-td-right{
+    width: 33%;
+    text-align: right;
+    font-size: 25px;
 }

@@ -22,9 +22,9 @@ const HomePage = () => {
             </div>
             <div className="home-content">
                 <table className="home-table">
-                    <th>hi</th>
-                    <th>hi</th>
-                    <th>hi</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
                     <tr>
                         <td><Nav.Link href="/diseases"><h1>Diseases</h1></Nav.Link></td>
                         <td></td>
@@ -41,16 +41,16 @@ const HomePage = () => {
                 </table>
                 <div className="divider"></div>
                 <table className="home-table">
-                    <th>hi</th>
-                    <th>hi</th>
-                    <th>hi</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
                     <tr>
                         <td rowSpan={2}><img src={home_prevent} alt='home_disease' className="home-image"/></td>
                         <td></td>
-                        <td><Nav.Link href="/prevent"><h1>Prevent</h1></Nav.Link></td>
+                        <td className="home-table-td-right"><Nav.Link href="/prevent"><h1>Prevent</h1></Nav.Link></td>
                     </tr>
                     <tr>
-                        <td colSpan={2}>Tips and resources to help prevent diseases in diseases your plants and vegetation</td>
+                        <td className="home-table-td-right" colSpan={2}>Tips and resources to help prevent diseases in diseases your plants and vegetation</td>
                     </tr>
                     <tr>
                         <td><a className="image-link" href="https://www.freepik.com/free-photo/horizontal-closeup-shot-beautiful-green-red-leaf-blurred-background_8280903.htm#query=diseases%20leaf&position=10&from_view=search&track=ais">Image by wirestock on Freepik</a></td>

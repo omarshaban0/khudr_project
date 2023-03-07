@@ -1,0 +1,39 @@
+.disease-list-entry{
+    width: 100%;
+    background-color: #F2E8CF !important;
+    color: #333333 !important;
+    border-width: 0cap !important;
+    border-radius: 0% !important;
+    margin: 0px !important;
+    text-align: left !important;
+    font-size: 25pt !important;
+}
+.disease-list-entry-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.divider-entries{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 5px;
+    background-color: #333333;
+    width: 100%;
+}
+.dropdown-menu {
+    position: absolute !important;
+    top: 100% !important; /* Position the Dropdown.Menu element below the Toggle element */
+    left: 0 !important;
+}
+
+.disease-list-entry-item{
+    background-color: #F2E8CF;
+}
+
+.disease-list-container{
+    width: 100vw;
+    background-color: #F2E8CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
