@@ -1,20 +1,21 @@
-import Dropdown from 'react-bootstrap/Dropdown';
+import Accordion from 'react-bootstrap/Accordion';
+import Nav from 'react-bootstrap/Nav';
+import {Link} from 'react-router-dom'
+
 import '../../styles/diseases_styles.css'
-function DiseaseListEntry(param){
+function DiseaseListEntry(props){
   return (
     <div>
-      <Dropdown className='disease-list-entry-container'>
-        <Dropdown.Toggle className="disease-list-entry" variant="success" id="dropdown-basic" bsPrefix="p-0">
-          {param.name}
-        </Dropdown.Toggle>
+      <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>{props.plant}</Accordion.Header>
 
-        <Dropdown.Menu className='dropdown-menu'>
-          <Dropdown.Item className = "disease-list-entry-item"href="#/action-1">Action</Dropdown.Item>
-          <Dropdown.Divider />
-          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
+        
+          {props.map(el => <Accordion.Body>
+            <Nav.Link href={`/disease/${el}`}>{el}</Nav.Link>
+          </Accordion.Body>)}
+      </Accordion.Item>
+    </Accordion>
     </div>
   );
 }

@@ -10,10 +10,10 @@ const DiseasesPage = () => {
             <div className="sticky">
                 <Navigation/>
             </div>
-            <div className="page">
+            <div className="page" >
                 <h1>Diseases</h1>
                 <div className="disease-list-container"> 
-                    <DiseaseListEntry name="APPLE" />
+                    <DiseaseListEntry plant="APPLE" disease1={['x','y','z']} />
                     <div className="divider-entries"/>
                     <DiseaseListEntry name="BLUBERRY" />
                     <div className="divider-entries"/>
