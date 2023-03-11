@@ -12,7 +12,9 @@ const DiseasePage = () => {
             </div>
             <h1 className="header1">Apple - Black Rot</h1>
             <div className="disease-description">
-                <p className="basic-text">Black rot is a fungal disease, caused by Diplodia seriata on apple. This disease can cause defoliation, fruit rot, and limb cankers. Leaf symptoms start appearing about one to three weeks after petal fall. Initially, the infections start as tiny purple spots</p>
+                <p className="basic-text">Black rot is a fungal disease, caused by Diplodia seriata on apple. T
+                his disease can cause defoliation, fruit rot, and limb cankers. Leaf symptoms start appea
+                ring about one to three weeks after petal fall. Initially, the infections start as tiny purple spots</p>
             </div>
             <div className="disease-table-container">
                 <table className="disease-table">
