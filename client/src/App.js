@@ -17,7 +17,7 @@ function App() {
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/diseases" element={<DiseasesPage/>}/>
                 <Route path="/prevent" element={<PreventPage/>}/>
-                <Route path="/disease/apple/black-rot" element={<DiseasePage/>}/>
+                <Route path="/disease/:plantID" element={<DiseasePage/>}/>
             </Routes>
         </div>
     );
