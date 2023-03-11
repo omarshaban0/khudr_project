@@ -32,3 +32,15 @@
     height: 40px;
     width: auto;
 }
+
+.nav-text{
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration-color:#FFFFFF;
+    align-items: right;
+}
+
+.nav-text-container{
+    display: flex;
+    justify-content: right;
+}

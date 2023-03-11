@@ -1,0 +1,31 @@
+.disease-image{
+    height: auto;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.disease-table-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.disease-table{
+    width: 1000px;
+}
+
+.disease-table th{
+    width: 50%;
+}
+
+.disease-table td{
+    font-size: 25px;
+}
+
+.disease-description{
+    left: 10px;
+    width: 80%
+}

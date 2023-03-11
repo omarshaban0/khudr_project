@@ -9,23 +9,27 @@ const PreventPage = () => {
             <div className="sticky">
                 <Navigation/>
             </div>
-            <h1>Prevent</h1>
-            <p>Resources for general tips and resources to help prevent diseases in diseases your plants and vegetation.</p>
-            <h2>Links</h2>
-            <div className="divider"/>
-            <h2>Videos</h2>
-            <div className="divider"/>
+            <div className="header1">Prevent</div>
+            <p className="basic-text">Resources for general tips and resources to help prevent diseases in your plants and vegetation.</p>
+            <h2 className="header2">Links</h2>
+            <div className="header-divider"/>
+            <a href="https://www.bbg.org/gardening/article/disease_prevention">https://www.bbg.org/gardening/article/disease_prevention</a>
+            <a href="https://extension.unh.edu/resource/10-easy-steps-prevent-common-garden-diseases-fact-sheet">https://extension.unh.edu/resource/10-easy-steps-prevent-common-garden-diseases-fact-sheet</a>
+            <a href="https://extension.missouri.edu/publications/mg13">https://extension.missouri.edu/publications/mg13</a>
+            <div className="blank-area"/>
+            <h2 className="header2">Videos</h2>
+            <div className="header-divider"/>
             <div className="prevent-table-container">
                 <table className="prevent-table">
                     <th></th>
                     <th></th>
                     <tr>
-                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/StLpa5VvcXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/StLpa5VvcXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Fa0CbGQZsCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/AGtazzeCIz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
                     </tr>
                     <tr>
-                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/StLpa5VvcXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
-                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/StLpa5VvcXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/drP_-bEhGj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/3mP_X250yaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
                     </tr>
                 </table>
             </div>
