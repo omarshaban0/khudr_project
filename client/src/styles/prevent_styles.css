@@ -1,0 +1,18 @@
+.prevent-table-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prevent-table{
+    width: 1000px;
+}
+
+.prevent-table th{
+    width: 50%;
+}
+
+.prevent-table td{
+    font-size: 25px;
+}

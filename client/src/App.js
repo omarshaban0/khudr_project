@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import DiseasesPage from "./pages/DiseasesPage";
+import DiseasePage from "./pages/DiseasePage";
 import PreventPage from "./pages/PreventPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/diseases" element={<DiseasesPage/>}/>
                 <Route path="/prevent" element={<PreventPage/>}/>
+                <Route path="/disease/:id" element={<DiseasePage/>}/>
             </Routes>
         </div>
     );
