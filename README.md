@@ -1,7 +1,7 @@
 # khudr_project
 # Welcome to the Khudr
 
-![MERN Stack Photo](https://www.mindinventory.com/blog/wp-content/uploads/2021/06/mern-stack.png)
+![MERN Stack Photo](https://miro.medium.com/v2/resize:fit:720/format:webp/0*kxPYwfJmkXZ3iCWy.png)
 
 
 This is a project meant for my web development class, where my goal was to provide a resource for amateur and intermediate gardeners to identify, treat, and prevent various diseases in their plants.
