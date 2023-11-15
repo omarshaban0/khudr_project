@@ -1,0 +1,98 @@
+.home-page{
+    background-color: #F2E8CF;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.logo-section{
+    background-color: #386641;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+.logo2{
+    height: 80vh;
+    width: auto;
+}
+
+.arrow-section{
+    background-color: #F2E8CF;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position:relative;
+}
+
+.arrow{
+    top: 9%;
+    height: 5vh;
+    position:relative;
+    width: auto;
+    animation: bob 1.25s infinite;
+}
+
+@keyframes bob {
+    10%{
+        top: 9%;
+    }
+    20%{
+        top: 11%;
+    }
+    30%{
+        top: 13%;
+    }
+    40%{
+        top: 15%;
+    }
+    50%{
+        top: 13%;
+    }
+    60%{
+        top: 11%;
+    }
+    70%{
+        top: 9%;
+    }
+
+}
+
+.home-image{
+    height: auto;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.home-content{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-table{
+    width: 1000px;
+}
+
+.home-table th{
+    width: 33%;
+}
+
+.home-table td{
+    font-size: 25px;
+}
+
+.home-table-td-right{
+    width: 33%;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Old Standard TT', serif;
+    text-decoration-color:#333333;
+}
